@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "helloworld-log-cli"
+version = "0.1.0"
+description = "Analyze JSON Lines access logs and export reports."
+requires-python = ">=3.11"
+dependencies = []
+readme = "README.md"
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+
+[project.scripts]
+hwlog = "hwlog.export:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

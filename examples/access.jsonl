@@ -1,0 +1,9 @@
+{"ts":"2026-11-19T15:59:59Z","method":"GET","path":"/search","status":200,"duration_ms":900}
+{"ts":"2026-11-20T00:00:00+08:00","method":"GET","path":"/search?q=python","status":200,"duration_ms":40}
+{"ts":"2026-11-19T16:01:00Z","method":"GET","path":"/search?q=go","status":404,"duration_ms":80}
+{"ts":"2026-11-19T16:02:00Z","method":"POST","path":"/search","status":201,"duration_ms":60}
+{"ts":"2026-11-19T16:03:00Z","method":"GET","path":"/api/items","status":502,"duration_ms":300}
+{"ts":"2026-11-19T16:04:00Z","method":"GET","path":"/api/items","status":200}
+{"ts":"2026-11-19T16:59:59Z","method":"GET","path":"/search","status":200,"duration_ms":100}
+{"ts":"2026-11-19T17:00:00Z","method":"GET","path":"/search","status":500,"duration_ms":1000}
+{"ts":

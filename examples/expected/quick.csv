@@ -1,0 +1,2 @@
+method,path,requests
+GET,/search,3
